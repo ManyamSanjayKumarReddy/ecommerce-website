@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
     <div className="layout">
       <Head>
         <title>Tutorials with Sanju</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <header>
         <Navbar />
