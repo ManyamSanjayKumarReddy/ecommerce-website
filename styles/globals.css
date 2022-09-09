@@ -118,6 +118,8 @@ span.text-red {
   background-color: #ebebeb;
   transform: scale(1, 1);
   transition: transform 0.5s ease;
+  height: 200px;
+  width: 200px;
 }
 
 .product-name {
@@ -341,10 +343,11 @@ span.text-red {
   padding: 20px;
 }
 .product .cart-product-image {
-  width: 180px;
-  height: 150px;
+  width: 140px;
+  height: 130px;
   border-radius: 15px;
   background-color: #ebebeb;
+  margin-left: 5px;
 }
 .item-desc .flex {
   display: flex;
@@ -422,11 +425,11 @@ span.text-red {
 .product-detail-image {
   border-radius: 15px;
   background-color: #ebebeb;
-
-  width: 400px;
-  height: 400px;
+  width: 380px;
+  height: 380px;
   cursor: pointer;
   transtion: 0.3s ease-in-out;
+  margin-left: 15px
 }
 .product-detail-image:hover {
   background-color: #f02d34;
@@ -442,6 +445,7 @@ span.text-red {
   width: 70px;
   height: 70px;
   cursor: pointer;
+  margin-left: 15px
 }
 
 .selected-image {
@@ -554,7 +558,7 @@ span.text-red {
 .maylike-products-container {
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 18px;
   margin-top: 20px;
 }
 .max-qty {
@@ -716,8 +720,9 @@ span.text-red {
     padding: 20px 5px;
   }
   .product .cart-product-image {
-    width: 25%;
-    height: 25%;
+    width: 80px;
+    height: 80px;
+    
   }
   .buttons .add-to-cart {
     width: 150px;
@@ -757,7 +762,7 @@ span.text-red {
     font-size: 18px;
   }
   .track {
-    animation: marquee 10s linear infinite;
+    animation: marquee s linear infinite;
     width: 550%;
   }
   .success-wrapper,
